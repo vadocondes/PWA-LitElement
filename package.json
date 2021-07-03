@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@dile/dile-button": "^3.0.1",
-    "axios": "^0.21.1",
+    "axios": "^0.19.2",
     "dile-app-drawer": "^1.1.2",
     "dile-hamburger": "^1.2.1",
     "dile-input": "^1.4.1",
@@ -27,11 +27,12 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "@open-wc/building-rollup": "^1.0.0",
+    "@open-wc/building-rollup": "^1.10.0",
+    "deepmerge": "^4.2.2",
     "es-dev-server": "^1.46.2",
-    "rimraf": "^2.6.3",
-    "rollup": "^2.3.4",
-    "rollup-plugin-cpy": "^2.0.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.52.7",
+    "rollup-plugin-copy": "^3.4.0",
     "workbox-cli": "^4.3.1"
   }
 }
