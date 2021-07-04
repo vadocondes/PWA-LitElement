@@ -27,7 +27,8 @@ export default merge(baseConfig, {
   input: './index.html',
   plugins: [
     copy({
-      targets: [{ src: ['./**/*.png', './**/*.jpg', 'manifest.json',  '_redirects' ], dest: 'dist' }],
+      targets: [{ src: ['./**/*.png', './**/*.jpg', 'manifest.json',  '_redirects', 'node_modules/axios/dist/axios.min.js' ],
+       dest: 'dist' }],
       // set flatten to false to preserve folder structure
       flatten: false,
     }),
